@@ -1,1 +1,11 @@
+# Ignore build outputs
 target
+
+# Ignore log files
+*.log
+
+# Ignore IDE configuration files
+.idea/
+.settings/
+.vscode/
+
