@@ -6,6 +6,5 @@ target
 
 # Ignore IDE configuration files
 .idea/
-.settings/
 .vscode/
 
