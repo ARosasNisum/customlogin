@@ -4,19 +4,18 @@ Custom login page with JSF and Spring-Security 3
 Run with standalone Jetty
 -------------------------
 
-To run the project with maven and Jetty simply type the following on the command line:  
+Para correr el proyecto necesitas correr el siguiente comando: 
 
     mvn clean compile package jetty:run
 
-After the deployment you can access the project with your browser at http://localhost:8080
+Y se desplegara en la ruta http://localhost:8080
 
-Run with another container
-----------------------------
-When running with another container than Jetty, you have to deploy the war-file manually.
-You can generate the war-file by typing on the command line:
- 
-    mvn clean compile package
+## Usuarios
 
-Now you will find the war-file in the target directory of the project.
+username: admin
+password: admin
+
+username: test
+password: test
 
 
